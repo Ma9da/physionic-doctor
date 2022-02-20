@@ -98,9 +98,13 @@ footer .flex-container{
 /***** End footer *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
-
+    footer .flex-container{
+        flex-direction: column;
+    }
 }
 @media screen and (max-width:576px) {
-    
+    footer .flex-container{
+        flex-direction: column;
+    }
 }
 /***** End media queries *****/
