@@ -45,6 +45,57 @@ flex-wrap: wrap;
     font-weight: 700;
     border: 0;
 }
+***** footer *****/
+footer{
+    padding: 3.125rem 0;
+}
+footer .flex-container{
+    justify-content: space-between;
+}
+.footer__section-title{
+    color: var(--text-color);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding-bottom: 1.25rem;
+}
+.footer__list-item{
+    color: var(--second-text-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.625rem 0;
+}
+.footer__list-item a{
+    font-weight: 600;
+    color: var(--second-text-color);
+}
+.facebook-icon{
+    width: 24px;
+    height: 23px;
+    fill: var(--primary-color);
+}
+.instagram-icon{
+    width: 23px;
+    height: 22px;
+    fill: var(--primary-color);
+    margin: 0 0.9375rem;
+}
+.twitter-icon{
+    width: 23px;
+    height: 18px;
+    fill: var(--primary-color);
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    background: var(--light-gray);
+    padding: 0.9375rem 0;
+}
+.copyright p{
+    color: var(--second-text-color);
+    font-weight: 600;
+}
+/***** End footer *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
 
