@@ -134,9 +134,19 @@ sup{
 /***** End pricing *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
-
+    .pricing__packages{
+        flex-direction: column;
+    }
+    .pricing__packages-package{
+        margin-bottom: 0.625rem;
+    }
 }
 @media screen and (max-width:576px) {
-    
+    .pricing__packages{
+        flex-direction: column;
+    }
+    .pricing__packages-package{
+        margin-bottom: 0.625rem;
+    }
 }
 /***** End media queries *****/
