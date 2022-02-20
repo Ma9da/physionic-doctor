@@ -126,9 +126,37 @@ flex-wrap: wrap;
 /***** End navbar *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
-
+    .navbar .flex-container{
+        justify-content: space-between;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .navbar__action{
+        display: none;
+    }
+    .search-icon{
+        display: block;
+    }
+    .cart-icon{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+    }
 }
 @media screen and (max-width:576px) {
-    
+    .container{
+        width: 90%;
+    }
+    .search-icon{
+        display: block;
+    }
+    .cart-icon{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+    }
 }
 /***** End media queries *****/
