@@ -46,6 +46,10 @@ flex-wrap: wrap;
     border: 0;
 }
 /***** media queries *****/
-@media screen and (max-width: 1200px) and (min-width:577px){}
-@media screen and (max-width:576px) {}
+@media screen and (max-width: 1200px) and (min-width:577px){
+
+}
+@media screen and (max-width:576px) {
+    
+}
 /***** End media queries *****/
