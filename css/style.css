@@ -45,11 +45,108 @@ flex-wrap: wrap;
     font-weight: 700;
     border: 0;
 }
+/***** pricing *****/
+.pricing__packages-header{
+    font-weight: 700;
+}
+.pricing__packages-header h5{
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin: 2.1875rem 0;
+    text-transform: uppercase;
+}
+.pricing__packages-header p{
+    color: var(--second-text-color);
+}
+.pricing__packages-header h4{
+    color: var(--primary-color);
+    padding: 1.25rem 0;
+    font-size: 2.5rem;
+}
+sub{
+    color: var(--disabled-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+sup{
+    font-size: 1rem;
+}
+.btn{
+    color: var(--light-text-color);
+    background: var(--primary-color) !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 0;
+}
+.pricing__packages{
+    display: flex;
+    padding: 7.1875rem 0;
+    align-items: flex-end;
+}
+.pricing__packages-package{
+    width: 327px;
+    height: 665px;
+    padding: 3.125rem 2.5rem;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    border-radius: 10px;
+    background: var(--light-text-color);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.standerd{
+    width:327px;
+    height:710px;
+    padding: 4.375rem 2.5rem;
+    background: var(--text-color);
+}
+.standerd h5, .standerd p, .standerd .pricing__packages-info li{
+    color: var(--light-text-color);
+}
+.pricing__packages-info{
+    text-align: left;
+    list-style-position: inside;
+}
+.pricing__packages-info li{
+    color: var(--text-color);
+    list-style-image: url(../assets/icons/icn-circle\ circle-xs\ secondary-color-1.svg); 
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.3125rem 0;
+}
+.pricing__packages-info li:nth-last-child(-n+2){
+    list-style-image: url(../assets/icons/icn-circle\ circle-xs\ mute.svg); 
+}
+.pricing__packages-action{
+    width: 246px;
+    margin: 2.1875rem 0 6.375rem;
+    height: 52px;
+    padding: 0.9375rem 2.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/***** End pricing *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
-
+    .pricing__packages{
+        flex-direction: column;
+    }
+    .pricing__packages-package{
+        margin-bottom: 0.625rem;
+    }
 }
 @media screen and (max-width:576px) {
-    
+    .pricing__packages{
+        flex-direction: column;
+    }
+    .pricing__packages-package{
+        margin-bottom: 0.625rem;
+    }
 }
 /***** End media queries *****/
