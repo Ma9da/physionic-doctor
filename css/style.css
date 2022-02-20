@@ -124,3 +124,11 @@ flex-wrap: wrap;
     font-weight: 600;
 }
 /***** End navbar *****/
+/***** media queries *****/
+@media screen and (max-width: 1200px) and (min-width:577px){
+
+}
+@media screen and (max-width:576px) {
+    
+}
+/***** End media queries *****/
