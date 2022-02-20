@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <div class="hero-bg">
+        <!-- ========== Start hero ========== -->
+        <header class="hero">
+            <div class="container flex-container">
+                <div class="hero__info">
+                    <h2 class="hero__title">
+                        Meet the best hospital
+                    </h2>
+                    <p class="hero__desc">
+                        We know how large objects will act,
+                    </p>
+                    <p class="hero__desc">
+                        but things on a small scale.
+                    </p>
+                    <div class="hero__action">
+                        <button class="active-btn btn">
+                            Get Quote now
+                        </button>
+                        <button class="diasbled-btn">
+                            learn more
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__form">
+                    <h3 class="hero__form-title">Book Appointment</h3>
+                    <form class="hero__form-form" action="">
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="name" placeholder="Full Name *">
+                        <label for="email">Email Address *</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                        <label for="department">Department *</label>
+                        <select name="department" id="department">
+                            <option value="Please Select">Please Select</option>
+                            <option value="option1">option1</option>
+                            <option value="option2">option2</option>
+                        </select>
+                        <label for="time">Time *</label>
+                        <input type="time" name="time" id="time" placeholder="4:00 Avalible">
+                        <input type="submit" value="book Appointment" class="btn">
+                    </form>
+                </div>
+            </div>
+        </header>
+    </div>
 </body>
+
 </html>
