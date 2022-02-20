@@ -45,6 +45,45 @@ flex-wrap: wrap;
     font-weight: 700;
     border: 0;
 }
+/***** faq *****/
+.faq .section__header{
+    margin-bottom: 7.1875rem;
+}
+
+.faq__cards-card-info{
+    margin: 0.3125rem 0;
+}
+.faq__cards.reviews__cards{
+    padding-top: 0;
+}
+.arrow-icon{
+    width: 9px;
+    height: 16px;
+    fill: var(--primary-color);
+}
+.faq__cards-card{
+    display: flex;
+    margin:  0.625rem ;
+    width: 333px;
+    height: 151px;
+    padding: 1.5625rem;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background: var(--light-text-color);
+}
+.faq__cards-card-header{
+    margin: 0 0.625rem;
+}
+.faq__cards-card-body h4{
+    font-weight: 700;
+    text-align: left;
+    color: var(--text-color);
+}
+
+/***** End faq *****/
 /***** media queries *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
 
