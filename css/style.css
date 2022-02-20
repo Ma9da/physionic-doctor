@@ -89,6 +89,9 @@ flex-wrap: wrap;
 
 }
 @media screen and (max-width:576px) {
-    
+    .faq__cards-card{
+        height: 127px;
+        width: 317px;
+    } 
 }
 /***** End media queries *****/
